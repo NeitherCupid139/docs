@@ -1,0 +1,24 @@
+---
+title: "Variables"
+description: "Variables store data in JavaScript. There are three main ways to declare variables: let, const, and var."
+icon: "code"
+---
+
+* let: Used for variables whose value may change.
+
+* const: Used for constants whose value cannot be changed.
+
+
+* var: An older way to declare variables, typically not recommended for modern JavaScript.
+
+> Best Practices:
+> •	Use let and const instead of var. Prefer const for values that will not change, as it helps maintain code predictability and maintainability.
+
+```variables.js
+let name = "John";  // Variable declaration, can be changed
+const age = 25;     // Constant declaration, cannot be changed
+
+// Changing a variable value
+name = "Alice";  // name is now "Alice"
+// age = 30;  // Error! Cannot change a constant value
+```
